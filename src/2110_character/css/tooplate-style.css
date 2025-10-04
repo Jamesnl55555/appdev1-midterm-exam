@@ -63,6 +63,14 @@ p {
   position: relative;
 }
 
+.name{
+  font-size: 3rem;
+  font-weight: 700;
+  background-color:#9999cc;
+  color: #333333;
+  text-align: center;
+}
+
 /* http://w3bits.com/css-masonry/ */
 .masonry {
   /* Masonry container */
@@ -118,6 +126,11 @@ img {
   display: block;
   margin-right: 0;
   margin-left: auto;
+}
+
+.shrink {
+  width: 50% !important;
+  margin-left: 10% !important;
 }
 
 .tm-hero-text {
