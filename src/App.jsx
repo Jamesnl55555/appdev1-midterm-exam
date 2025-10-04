@@ -15,7 +15,10 @@ function App() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
+  const [popupContainer, setIsContainerOpen] = useState(false);
+  const toggleContainer = () => {
+    setIsContainerOpen(!isContainerOpen);
+  }  
   return (
     <>
   <header
